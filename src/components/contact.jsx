@@ -109,28 +109,28 @@ class Contact extends React.Component {
                           <br />
                           Simply fill the from and send me an email.
                         </p>
-                        {/* <!-- <ul class="list-ico">
-                                <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                                <li><span class="ion-email"></span> contact@example.com</li>
-                                </ul> --> */}
+                        <ul class="list-ico">
+                          <li><span class="ion-ios-location"></span>Abu Dhabi, UAE</li>
+                          <li><span class="ion-ios-telephone"></span> (+971) 585855047</li>
+                          <li><span class="ion-email"></span> hi@menas.pro</li>
+                        </ul>
                       </div>
                       <div className="socials">
                         <ul>
                           <li>
                             <a
-                              href=""
+                              href="https://stackoverflow.com/users/11942492"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-codepen"></i>
+                                <i className="fa fa-stack-overflow"></i>
                               </span>
                             </a>
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://github.com/meena-erian"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -141,7 +141,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://linkedin.com/in/devmenas/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
