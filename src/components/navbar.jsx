@@ -93,7 +93,8 @@ class Navbar extends React.Component {
               style={{ 
                 maxWidth: "100px",
                 borderRadius: 1000,
-                boxShadow: "0px 0px 5px"
+                boxShadow: "0px 0px 5px",
+                border: "4px solid"
               }}
             />
           </a>
