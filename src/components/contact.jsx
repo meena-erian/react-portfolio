@@ -75,11 +75,6 @@ class Contact extends React.Component {
             <br /><br />
             It's still quite inexperienced but sometime it helps.
           </p>
-          {/* <ul class="list-ico">
-            <li><span class="ion-ios-location"></span>Abu Dhabi, UAE</li>
-            <li><span class="ion-ios-telephone"></span> (+971) 585855047</li>
-            <li><span class="ion-email"></span> hi@menas.pro</li>
-          </ul> */}
         </div>
         <div className="socials">
           <ul>
