@@ -99,8 +99,8 @@ class Contact extends React.Component {
                 href="#botwebchat"
                 onClick={
                   () => {
-                    window.webchatOpen = !window.webchatOpen
-                    window.botpressWebChat.sendEvent({ type: window.webchatOpen ? 'show' : 'hide' })
+                    window.webchatOpen = !document.querySelector('.bp-widget-side');
+                    window.botpressWebChat.sendEvent({ type: window.webchatOpen ? 'show' : 'hide' });
                   }
                 }
               >
