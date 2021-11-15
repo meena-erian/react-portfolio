@@ -17,10 +17,10 @@ class Contact extends React.Component {
             <br /><br />
             Feel free to send me an email, connect on Linkedin, or chat with my Bot using any of the provided channels.
           </p>
-          <ul class="list-ico">
-            <li><span class="ion-ios-location"></span>Abu Dhabi, UAE</li>
-            {/* <li><span class="ion-ios-telephone"></span> (+971) 585855047</li> */}
-            <li><span class="ion-email"></span> hi@menas.pro</li>
+          <ul className="list-ico">
+            <li><span className="ion-ios-location"></span>Abu Dhabi, UAE</li>
+            {/* <li><span className="ion-ios-telephone"></span> (+971) 585855047</li> */}
+            <li><span className="ion-email"></span> hi@menas.pro</li>
           </ul>
         </div>
         <div className="socials">
