@@ -6,38 +6,54 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+        { id: "DevOps_skill", content: "DevOps tools", porcentage: "75%", value: "75" },
         {
-          id: "JavaScript_skill",
-          content: "JavaScript",
+          id: "Business_skill",
+          content: "Business analysis & reporting and analysis",
+          porcentage: "80%",
+          value: "80"
+        },
+        {
+          id: "Automation_skill",
+          content: "Automation and IOT",
           porcentage: "90%",
           value: "90"
         },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
+        {
+          id: "JavaScript_skill",
+          content: "JavaScript & TypeScript",
+          porcentage: "75%",
+          value: "90"
+        },
         {
           id: "ReactJS_skill",
-          content: "ReactJS",
+          content: "ReactJS & JSX & TSX",
           porcentage: "80%",
           value: "80"
         },
         {
           id: "Python_skill",
-          content: "Python",
+          content: "Python, Python Frameworks, Python package development",
           porcentage: "75%",
           value: "75"
         },
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
+          id: "Chatbots_skill",
+          content: "Chatbots & NLU & ML",
+          porcentage: "65%",
+          value: "65"
         },
         {
-          id: "Wordpress_skill",
-          content: "Wordpress",
+          id: "DBMS_skill",
+          content: "DBMS (SQL, SQLite, Postgresql, Oracle, MongoDB)",
           porcentage: "80%",
           value: "80"
+        },
+        {
+          id: "Datacenter_skill",
+          content: "Datacenter Setup, on-premise installation, cloud network setup",
+          porcentage: "70%",
+          value: "70"
         }
       ],
       about_me: [
