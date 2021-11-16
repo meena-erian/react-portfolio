@@ -27,7 +27,7 @@ import Intro from './components/intro.jsx';
 import About from './components/about.jsx';
 //import Portfolio from './components/portfolio.jsx';
 import FeaturesTiles from './components/sections/FeaturesTiles';
-//import FeaturesSplit from './components/sections/FeaturesSplit';
+import FeaturesSplit from './components/sections/FeaturesSplit';
 //import Testimonial from './components/sections/Testimonial';
 import Contact from './components/contact.jsx';
 import BackToTop from './components/back-top.jsx';
@@ -41,8 +41,8 @@ ReactDOM.render(
         <Intro />
         <About />
         <FeaturesTiles />
-        {/* <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
-        <Testimonial topDivider /> */}
+        <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
+        {/* <Testimonial topDivider /> */}
         <Contact />
         <BackToTop />
         <Preloader />

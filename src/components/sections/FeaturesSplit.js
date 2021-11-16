@@ -50,14 +50,15 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'My Projects',
+    paragraph: 'Below are some of the projects I worked on which can be useful for almost any kind of business'
   };
 
   return (
     <section
       {...props}
       className={outerClasses}
+      id="my-work"
     >
       <div className="container">
         <div className={innerClasses}>
@@ -67,13 +68,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Super Convinient Analytics
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Data Analytics Dashboards
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                No more hassle downloading data from multiple different sources and doing lots of manual work with Microsoft Excel just to end up with a huge file that crashes when you try to open it and cannot be shared with anybody since it contains lots of sensitive information. Have one dashboard app installed on your local network that automatically connects to all other apps to generate live reports, summaries and graphs for all important information and KPIs. download printable PDF reports in your prefered format And manage which user can see what.
                   </p>
               </div>
               <div className={
@@ -93,13 +94,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Effective Customer Satisfaction
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Chatbot Agent
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  In contrary to a human Agent, A chatbot can easily handle too many customers at the same time, respond immediately and work with any other kind of software to serve the customer.
+                  And on the rare occasion that the chatbot is unable to understand or satisfy the customer, it can still transfer them to a human.
                   </p>
               </div>
               <div className={
@@ -119,13 +121,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  High reliability
                   </div>
-                <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                <h3 className="mt-0 mb-12"> 
+                  Database Replication
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Have no worries about data loss and no need to take backups when you have multiple live replications of all your databases no matter what kind of dataabse it is.
                   </p>
               </div>
               <div className={
@@ -137,6 +139,33 @@ const FeaturesSplit = ({
                 <Image
                   src={require('./../../assets/images/features-split-image-03.png')}
                   alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Everything in One Platform
+                  </div>
+                <h3 className="mt-0 mb-12">
+                  Odoo CRM, ERP, manufacturing, warehouse, and much more
+                  </h3>
+                <p className="m-0">
+                  With odoo you can manage everything in your business in one platform, and everything's very customizable and extensible 
+                  </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/features-split-image-02.png')}
+                  alt="Features split 02"
                   width={528}
                   height={396} />
               </div>
