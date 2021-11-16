@@ -58,7 +58,8 @@ const FeaturesSplit = ({
     <section
       {...props}
       className={outerClasses}
-      id="my-work"
+      style={{paddingTop: 100}}
+      id="work"
     >
       <div className="container">
         <div className={innerClasses}>
