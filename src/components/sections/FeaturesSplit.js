@@ -131,7 +131,7 @@ const FeaturesSplit = ({
                   Database Replication
                   </h3>
                 <p className="m-0">
-                  Have no worries about data loss and no need to take backups when you have multiple live replications of all your databases no matter what kind of dataabse it is.
+                  Have no worries about data loss and no need to take backups when you have multiple live replications of all your databases no matter what kind of database it is.
                   </p>
               </div>
               <div className={
