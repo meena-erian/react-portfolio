@@ -24,7 +24,7 @@ import * as serviceWorker from './serviceWorker';
 //import components
 import Navbar from './components/navbar.jsx';
 import Intro from './components/intro.jsx';
-import About from './components/about.jsx';
+//import About from './components/about.jsx';
 //import Portfolio from './components/portfolio.jsx';
 import FeaturesTiles from './components/sections/FeaturesTiles';
 import FeaturesSplit from './components/sections/FeaturesSplit';
@@ -39,7 +39,7 @@ ReactDOM.render(
     <React.Fragment>
         <Navbar />
         <Intro />
-        <About />
+        {/* <About /> */}
         <FeaturesTiles />
         <FeaturesSplit invertMobile topDivider imageFill />
         {/* <Testimonial topDivider /> */}
