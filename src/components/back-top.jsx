@@ -1,6 +1,6 @@
 import React from 'react';
 import $ from 'jquery';
-import '../libs/easing.js'
+import '../libs/easing.js';
 
 class BackToTop extends React.Component {
     componentDidMount(){
